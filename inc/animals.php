@@ -45,7 +45,7 @@ $animals[21] = [
     "age" => 6,
     "Breed" => "savannah cat"
 ];
-$animals[21] = [
+$animals[22] = [
     "name" => "Luna",
     "img" => "img/shycat.jpg",
     "animal" => "cat",

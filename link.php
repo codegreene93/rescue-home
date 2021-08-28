@@ -20,6 +20,18 @@ include("inc/header.php"); ?>
 
 <h1><?php echo $pageName; ?></h1>
 
+    <ul> <?php
+        foreach($animals as $animal){
+            echo "<li><a href='#'>" 
+            . "<img src=" . $animal['img'] . " />" 
+            . "<br>" . $animal["name"] 
+            . "<br>" 
+            . "<p>View my Bio</p>" 
+            . "</a></li>";
+        }
+        ?>
+    </ul>
+
 <?php
 include("inc/footer.php");
 ?>
