@@ -11,7 +11,7 @@
         <ul class="animals">
             <?php
         foreach($animals as $animal){
-                    echo "<li><a href='#'>" . $animal["img"] . "<br>" . $animal["name"] . "</a></li>";
+                    echo "<li><a href='#'>" . "<img src=" . $animal['img'] . " />" . "<br>" . $animal["name"] . "</a></li>";
                      }
                      ?>
         </ul>
