@@ -16,7 +16,10 @@ if(isset($_GET["animal"])){
     }
 };
 
-include("inc/header.php");
+include("inc/header.php"); ?>
 
+<h1><?php echo $pageName; ?></h1>
+
+<?php
 include("inc/footer.php");
 ?>
