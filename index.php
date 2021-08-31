@@ -10,15 +10,10 @@
     <div class="main-animals">
         <ul class="animals">
             <?php
-        foreach($animals as $animal){
-                    echo "<li><a href='#'>" 
-                    . "<img src=" . $animal['img'] . " />" 
-                    . "<br>" . $animal["name"] 
-                    . "<br>" 
-                    . "<p>View my Bio</p>" 
-                    . "</a></li>";
-                     }
-                     ?>
+            foreach($animals as $id => $animal){
+                echo get_item_html($id, $animal);
+            }
+            ?>
         </ul>
     </div>
 </div>

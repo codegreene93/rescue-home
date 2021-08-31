@@ -11,7 +11,7 @@
     <div class="header">
         <h1 class="main-title">Adopt a Pet Today</h1>
         <ul class="nav">
-            <li class="homepage"><a href="/">Home</a></li>
+            <li class="homepage" ><a href="/">Home</a></li>
             <li class="dog-title"><a href="link.php?animal=dog">Dogs</a></li>
             <li class="cats-title"><a href="link.php?animal=cat">Cats</a></li>
             <li class="all-title"><a href="link.php?animal=all">All</a></li>
